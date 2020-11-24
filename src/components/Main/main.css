@@ -1,0 +1,135 @@
+
+.description-box {
+    width: 20rem;
+    height: 100%;
+    min-height: 20rem;
+
+    background: linear-gradient(329.54deg, rgb(175, 180, 187) 0%, #8c9097 100%);
+
+    /* margin: 2rem auto; */
+    
+    /* padding: 2rem; */
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+
+    border: 1 solid #36393F;
+    border-radius: 20px;
+
+    transition: 200ms;
+
+    box-shadow: 1px 1px .8rem 1px rgba(0,0,0,.2);
+
+}
+.box {
+    width: 16rem;
+    height: 0 auto;
+    min-height: 20rem;
+    
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.img img {
+    width: 15rem;
+
+    padding: .4rem;
+
+    float: center;
+
+    margin: 0 auto 0 0;
+
+    border-radius: 15px;
+}
+.dec {
+    color: #fff;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+
+    text-align: center;
+    margin: 1rem auto;
+    float: center;
+
+    flex: 1;
+
+    /* margin: .5 auto; */
+}
+
+@media (min-width: 760px) {
+    .description-box {
+        width: 70rem;
+        height: 25rem;
+    
+        background: linear-gradient(329.54deg, rgb(175, 180, 187) 0%, #8c9097 100%);
+    
+        margin: 5rem auto;
+        
+        padding: 2rem;
+    
+        display: grid;
+        grid-template-areas: "img" "desc";
+        grid-template-columns: 1fr 100px;
+
+        justify-content: center;
+        justify-items: center;
+    
+    
+        border: 1px solid #36393F;
+        border-radius: 13px;
+
+        transition: all 200ms;
+    
+    }
+    .description-box:hover {
+        transform: scale(1.015);
+
+        background: linear-gradient(329.54deg, rgb(175, 180, 187) 0%, #c0c5cc 100%);
+    }
+    .box {
+        width: 60rem;
+        height: 0 auto;
+        min-height: 10rem;
+    
+        margin: 0 auto;
+    
+        /* background-color: red; */
+    
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    
+    }
+    .description-box .img {
+        grid-area: img
+    }
+    .description-box .img img {
+        width: 15rem;
+    
+        float: left;
+    
+        margin: -10px 0 0 80px;
+    
+        border-radius: 15px;
+
+        /* transform: skewX(35deg); */
+
+        transition: 300ms;
+    }
+    .dec {
+        grid-area: desc;
+    }
+    .dec h2 {
+        color: #000;
+        font-family: 'Nunito', sans-serif;
+
+        float: right;
+
+    }
+}

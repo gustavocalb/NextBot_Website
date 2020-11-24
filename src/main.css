@@ -1,0 +1,27 @@
+:root {
+    --primary-bg: #36393F;
+    --primary-blue: #00c3ff;
+    --primary-white: #ffffff;
+    --primary-black: #000000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #36393F;
+    overflow-x: hidden;
+}
+.container {
+    width: min(90%, 112rem);
+    
+    margin: auto;
+
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

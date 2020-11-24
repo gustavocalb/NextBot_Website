@@ -1,0 +1,126 @@
+.logo {
+    width: 100vw;
+    text-align: center;
+
+}
+.logo h2 {
+    font-family: 'Goldman', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+header {
+    width: 100vw;
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.simple-description {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #ffffff;
+}
+.buttons {
+    float: center;
+}
+.buttons ul {
+    width: 100%;
+    max-width: 100%;
+
+    list-style: none;
+
+    max-width: 17rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+.buttons ul li {
+    display: flex;
+    color: #fff;
+}
+.buttons a {
+    width: 8rem;
+
+    margin-top: 10px;
+    padding: 10px;
+
+
+    background-color: transparent;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+    border: 2px solid #00c3ff;
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    transition: .15s;
+}
+ .buttons a:hover {
+    background-color: #00c3ff; 
+    
+    color: var(--primary-black);
+    
+}
+@media (min-width: 760px) {
+    .logo h2 {
+        font-family: 'Goldman', sans-serif;
+        font-size: 5rem;
+        font-weight: 400;
+    }
+    .simple-description {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #ffffff;
+
+    }
+    .buttons {
+        float: center;
+    }
+    .buttons ul {
+        width: 100%;
+        max-width: 100%;
+    
+        list-style: none;
+    
+        max-width: 30rem;
+        margin: 0 auto;
+
+    
+        display: flex;
+        justify-content: space-between;
+    }
+    .buttons ul li {
+        display: flex;
+        color: #fff;
+    }
+    .buttons a {
+        width: 10rem;
+    
+        margin-top: 30px;
+        padding: 1rem;
+    
+        background-color: transparent;
+    
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #fff;
+    
+        text-decoration: none;
+    
+    }
+     .buttons a:hover {
+        background-color: #00c3ff; 
+        
+        color: #000;
+        
+    }
+}

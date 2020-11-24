@@ -1,0 +1,168 @@
+footer {
+    width: 100%;
+    /* height: ; */
+
+    background-color: #30343b;
+
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-footer {
+    width: min(90%, 112rem);
+        
+    margin: auto;
+    
+}
+.img-footer img {
+    width: 2rem;
+    height: 2rem;
+
+    float: center;
+
+    margin: 0 auto;
+
+    border-radius: 4px;
+}
+.description-footer h2 {
+
+    margin: .3rem auto; 
+
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.bnt {
+    width: 100%;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.bnt ul {
+    width: 100%;
+    max-width: 100%;
+
+    list-style: none;
+
+    /* float: center; */
+
+    max-width: 17rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+.bnt ul li {
+    display: flex;
+    color: #fff;
+
+    margin-right: 10px;
+}
+.bnt a {
+    width: 8rem;
+
+    margin-top: 10px;
+    padding: 10px;
+
+    margin-right: 0.7rem;
+    margin-left: 0.1rem;
+
+    background-color: transparent;
+
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+    border: 2px solid #00c3ff;
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    transition: 200ms ;
+}
+.discord {
+    width: 0rem;
+    height: 0rem;
+    float: center;
+    
+}
+@media (min-width: 760px) {
+    footer {
+        width: auto;
+        height: auto;
+    
+        background-color: #30343b;
+    
+        margin: 0rem auto;
+    
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .container-footer {
+        width: min(90%, 112rem);
+            
+        margin: auto;
+        
+    }
+
+    .description-footer h2 {
+        /* margin-top: 30px; */
+    
+        margin: 10px;
+    
+        text-align: center;
+        float: center;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bnt ul {
+        width: auto;
+
+        list-style: none;
+    
+        max-width: 70rem;
+        margin: 0 auto;
+    
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+    }
+    .bnt ul li {
+        /* display: flex; */
+        color: #fff;
+    }
+    .bnt ul li a {
+
+        background-color: transparent;
+
+        margin-right: 12rem;
+        margin-left: 12rem;
+        /* margin-bottom: rem; */
+        margin-top: 1rem;
+    
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #fff;
+    
+        border: 2px solid  #00c3ff;
+    
+        text-decoration: none;
+
+        float: left;
+        
+        transition: 100ms ;
+    }
+     .bnt a:hover {
+        background-color: #00c3ff; 
+        
+        color: #000;
+        
+    }
+} 
